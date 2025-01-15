@@ -1,0 +1,8 @@
+.row,
+.container {
+  height: 100vh;
+}
+
+.row {
+  padding-block: 20px;
+}

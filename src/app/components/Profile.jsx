@@ -2,20 +2,34 @@ import React from "react";
 import "../styles/components/Profile.css";
 import Image from "next/image";
 import FotodeGina from "../../../public/gina.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 function Profile() {
   return (
     <div className="profile">
+      <h1 className="profile__title">
+        {" "}
+        <FontAwesomeIcon icon={faUser} className="fa-fw profile__icon" />
+        About me
+      </h1>
       <Image
         className="profile__photo"
         src={FotodeGina}
         alt="Gina`s profile photo"
       />
       <div className="profile__desc">
-        <h2 className="profile__name">Im,</h2>
-        <span className="profile__fullname">Gina González Gut.</span>
+        <p className="profile__name">
+          I'm, <br />{" "}
+          <span className="profile__fullname">
+            Gina <br /> González Gut.
+          </span>
+        </p>
+        <a href="mailto:ginagonzalezgut@gmail.com" className="profile__email">
+          ginagonzalezgut@gmail.com{" "}
+          <FontAwesomeIcon icon={faEnvelope} className="fa-fw profile__icon" />
+        </a>
       </div>
-      <h3 className="profile__email">ginagonzalezgut@gmail.com</h3>
     </div>
   );
 }
