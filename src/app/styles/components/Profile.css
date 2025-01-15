@@ -1,10 +1,27 @@
 .profile {
   background-color: #8184d3;
+  color: white;
 }
 
-.profile_photo {
+.profile__photo {
   height: auto;
   width: 100%;
-  max-width: 300px;
+  max-width: 500px;
   border-radius: 100%;
+}
+
+.profile__desc {
+  padding-left: 20px;
+  font-size: 40px;
+  line-height: normal;
+}
+
+.profile__fullname {
+  font-weight: 600px;
+  max-width: 100px;
+}
+.profile__email {
+  font-size: 16px;
+  padding-left: 20px;
+  border-bottom: 2px solid white;
 }
