@@ -1,0 +1,10 @@
+.profile {
+  background-color: #8184d3;
+}
+
+.profile_photo {
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 100%;
+}
