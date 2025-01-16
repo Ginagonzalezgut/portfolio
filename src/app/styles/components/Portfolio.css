@@ -5,10 +5,11 @@
 }
 
 .portfolio__title {
-  font-size: 80px;
+  font-size: 65px;
   line-height: 1;
-  letter-spacing: 5;
+  letter-spacing: 4;
   font-weight: 800;
+  margin-bottom: 40px;
 }
 .portfolio__projects {
   display: grid;
@@ -24,13 +25,13 @@
   grid-row-end: 3;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #585858;
-  color: white;
-  font-size: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #aad9d8;
+  color: black;
+  font-size: 24px;
+  padding: 25px;
+  letter-spacing: 1;
+  line-height: 1.6;
+  font-weight: 400;
 }
 
 .portfolio__project--two {
@@ -40,15 +41,16 @@
   overflow: hidden;
 }
 .portfolio__project--three {
-  background-color: #8e70be;
+  background-color: #ffa094;
   border-radius: 10px;
-  background-image: url(../../../../public/rickandmorty.png);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.portfolio__project--three__icon {
+.portfolio__project--icons {
   font-size: 64px;
+  color: white;
 }
 .portfolio__project--four {
   border-radius: 10px;
@@ -62,6 +64,10 @@
   background-color: #8e70be;
   height: 100%;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .portfolio__project--four__right {
   background-color: #585858;
@@ -70,13 +76,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 64px;
 }
 .portfolio__project--two__top {
   background-color: #aad9d8;
   height: 50%;
   font-weight: 600;
   font-size: 24px;
+  background-image: url(../../../../public/js.png);
+  background-size: contain;
 }
 .portfolio__project--two__top__details {
   font-size: 16px;
@@ -84,7 +91,7 @@
 }
 .portfolio__project--two__bottom {
   height: 50%;
-  background-color: #feb043;
+  background-color: #5cb85c;
   display: flex;
   flex-direction: center;
   justify-content: center;

@@ -1,15 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/globals.css";
-import { Raleway } from "next/font/google";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { raleway } from "./fonts";
 config.autoAddCss = false;
-
-const raleway = Raleway({
-  subsets: ["latin"],
-  display: "swap",
-});
 
 export const metadata = {
   title: "Create Next App",
@@ -18,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={raleway}>
+    <html lang="en" className={raleway.className}>
       <body>{children}</body>
     </html>
   );

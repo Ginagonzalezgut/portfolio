@@ -1,39 +1,60 @@
 import React from "react";
 import "../styles/components/Portfolio.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCss, faGithub, faHtml5 } from "@fortawesome/free-brands-svg-icons";
-import { faTasks } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCss,
+  faHtml5,
+  faJava,
+  faNodeJs,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
+import { mali, quicksand } from "../fonts";
 
 function Portfolio() {
   return (
     <div className="portfolio">
-      <h1 className="portfolio__title">Portfolio</h1>
+      <h1 className="portfolio__title text-center">
+        Frontend - <span className=" text-center ">Developer</span>
+      </h1>
       <div className="portfolio__projects">
-        <div className="portfolio__project--one  ">
-          Frontend <br /> <span>Developer</span>
+        <div className="portfolio__project--one text-start d-flex justify-content-between flex-column">
+          <p>
+            Hi there! I'm a web developer passionate about crafting stunning,
+            interactive web experiences.
+          </p>
+          <p className="text-end fs-5">Read more to discover my work!</p>
         </div>
         <div className="portfolio__project--two">
           <div className="portfolio__project--two__top d-flex justify-content-center align-items-center flex-column">
             {/* <FontAwesomeIcon icon={faTasks} className="fa-fw profile__icon" /> */}
-            TO-DO{" "}
-            <span className="portfolio__project--two__top__details">
-              Application
-            </span>
+
+            <span className="portfolio__project--two__top__details"></span>
           </div>
           <div className="portfolio__project--two__bottom">
-            Junior Full-Stack
+            <FontAwesomeIcon
+              icon={faNodeJs}
+              className="fa-fw portfolio__project--icons"
+            />
           </div>
         </div>
         <div className="portfolio__project--three">
           <FontAwesomeIcon
             icon={faHtml5}
-            className="fa-fw portfolio__project--three__icon"
+            className="fa-fw portfolio__project--icons"
           />
         </div>
         <div className="portfolio__project--four">
-          <div className="portfolio__project--four__left"></div>
+          <div className="portfolio__project--four__left">
+            <FontAwesomeIcon
+              icon={faReact}
+              className="fa-fw portfolio__project--icons"
+            />
+          </div>
           <div className="portfolio__project--four__right">
-            <FontAwesomeIcon icon={faCss} className="fa-fw " />
+            <FontAwesomeIcon
+              icon={faCss}
+              className="fa-fw portfolio__project--icons"
+            />
           </div>
         </div>
       </div>
