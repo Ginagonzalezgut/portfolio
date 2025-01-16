@@ -6,7 +6,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 .profile__title {
   position: absolute;
@@ -23,13 +23,24 @@
   margin-right: 5px;
 }
 .profile__photo {
-  height: auto;
-  width: 100%;
-  max-width: 200px;
+  background-color: #efaeff;
+  height: 200px;
+  width: 200px;
   border-radius: 100%;
-  align-self: flex-end;
-  margin-top: 20px;
-  margin-right: 20px;
+  border: 8px solid #8184d3;
+  outline: 8px solid white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile__photo img {
+  width: 300px;
+  height: auto;
+  border-radius: 100%;
+  bottom: -20px;
+  position: absolute;
 }
 
 .profile__desc {

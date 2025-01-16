@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/components/Profile.css";
 import Image from "next/image";
-import FotodeGina from "../../../public/gina.jpg";
+import FotodeGina from "../../../public/gina.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
@@ -13,11 +13,10 @@ function Profile() {
         <FontAwesomeIcon icon={faUser} className="fa-fw profile__icon" />
         About me
       </h1>
-      <Image
-        className="profile__photo"
-        src={FotodeGina}
-        alt="Gina`s profile photo"
-      />
+      <div className="profile__photo">
+        <Image src={FotodeGina} alt="Gina`s profile photo" />
+      </div>
+
       <div className="profile__desc">
         <p className="profile__name">
           I'm, <br />{" "}

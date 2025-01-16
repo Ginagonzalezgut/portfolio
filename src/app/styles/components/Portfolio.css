@@ -1,0 +1,55 @@
+.portfolio__title {
+  font-size: 80px;
+  line-height: 1;
+  letter-spacing: 5;
+  font-weight: 800;
+}
+.portfolio__projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 40px;
+}
+.portfolio__project--one {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.portfolio__project--two {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.portfolio__project--three {
+  background-color: #8e70be;
+  border-radius: 10px;
+  background-image: url(../../../../public/rickandmorty.png);
+}
+
+.portfolio__project--four {
+  background-color: #585858;
+  border-radius: 10px;
+  background-image: url(../../../../public/setProject.png);
+  background-size: cover;
+}
+.portfolio__project--two__top {
+  background-color: #aad9d8;
+  height: 50%;
+  font-weight: 600;
+  font-size: 24px;
+}
+.portfolio__project--two__top__details {
+  font-size: 16px;
+  font-weight: 400;
+}
+.portfolio__project--two__bottom {
+  height: 50%;
+  background-image: url(../../../../public/taskMaster.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

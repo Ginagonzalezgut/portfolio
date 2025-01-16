@@ -1,3 +1,4 @@
+import Portfolio from "./components/Portfolio";
 import Profile from "./components/Profile";
 import "./styles/components/Home.css";
 
@@ -10,7 +11,7 @@ export default function Home() {
             <Profile />
           </div>
           <div className="col col-7">
-            <h1>Portfolio</h1>
+            <Portfolio />
           </div>
         </div>
       </div>
