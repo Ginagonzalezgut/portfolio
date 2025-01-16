@@ -1,3 +1,9 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .portfolio__title {
   font-size: 80px;
   line-height: 1;
@@ -9,6 +15,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   gap: 40px;
+  flex: 1;
 }
 .portfolio__project--one {
   grid-column-start: 1;
@@ -17,6 +24,13 @@
   grid-row-end: 3;
   border-radius: 10px;
   overflow: hidden;
+  background-color: #585858;
+  color: white;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio__project--two {
@@ -29,13 +43,34 @@
   background-color: #8e70be;
   border-radius: 10px;
   background-image: url(../../../../public/rickandmorty.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.portfolio__project--three__icon {
+  font-size: 64px;
+}
 .portfolio__project--four {
-  background-color: #585858;
   border-radius: 10px;
-  background-image: url(../../../../public/setProject.png);
   background-size: cover;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  display: flex;
+  overflow: hidden;
+}
+.portfolio__project--four__left {
+  background-color: #8e70be;
+  height: 100%;
+  width: 50%;
+}
+.portfolio__project--four__right {
+  background-color: #585858;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
 }
 .portfolio__project--two__top {
   background-color: #aad9d8;
@@ -49,7 +84,11 @@
 }
 .portfolio__project--two__bottom {
   height: 50%;
-  background-image: url(../../../../public/taskMaster.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-color: #feb043;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
 }

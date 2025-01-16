@@ -1,5 +1,6 @@
 import Portfolio from "./components/Portfolio";
 import Profile from "./components/Profile";
+import Technologies from "./components/Technologies";
 import "./styles/components/Home.css";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
             <Portfolio />
           </div>
         </div>
+        <Technologies />
       </div>
     </>
   );
