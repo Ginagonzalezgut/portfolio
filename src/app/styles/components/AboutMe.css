@@ -1,0 +1,23 @@
+.about {
+  background-color: #f7f7f7;
+
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 20px;
+  padding: 40px;
+}
+.about__desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  letter-spacing: 1.6;
+  line-height: 2;
+}
+.about__photo img {
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+}
