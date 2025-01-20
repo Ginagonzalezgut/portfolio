@@ -1,0 +1,36 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 40px;
+  height: 100vh;
+  background-color: #f4f5f6;
+  border-radius: 20px;
+}
+.projects__intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block: 30px;
+}
+.projects__tittle {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.projects__button {
+  display: block;
+  border-radius: 50px;
+  background-color: var(--brand);
+}
+
+.projects__boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project__image {
+  border: 1px solid red;
+  width: 400px;
+  padding-right: 15px;
+}

@@ -2,13 +2,57 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f5f6;
+  border-radius: 20px;
+  padding: 80px 50px;
 }
 
 .portfolio__title {
-  font-size: 65px;
-  line-height: 1;
-  letter-spacing: 4;
-  font-weight: 800;
-  margin: 10px 0 20px;
-  color: #333;
+  font-size: 56px;
+  letter-spacing: 2;
+  font-weight: 600;
+  color: black;
+  line-height: 1.4;
+}
+.portfolio__text {
+  margin-top: 30px;
+  color: var(--secondtextcolor);
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.5;
+}
+.portfolio__link {
+  color: var(--brand);
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.portfolio__connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  align-self: flex-start;
+  justify-self: flex-end;
+  width: 100%;
+  gap: 30px;
+}
+
+.portfolio__connect__links {
+  width: 100%;
+}
+.portfolio__connect__link {
+  background-color: #ffffff;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  flex: 1;
+  display: block;
+}
+
+.portfolio__connect__link svg {
+  color: var(--brand);
 }

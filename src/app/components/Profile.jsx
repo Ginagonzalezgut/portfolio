@@ -4,14 +4,15 @@ import Image from "next/image";
 import FotodeGina from "../../../public/gina.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 function Profile() {
   return (
     <div className="profile">
       <h1 className="profile__title">
         {" "}
-        <FontAwesomeIcon icon={faUser} className="fa-fw profile__icon" />
-        About me
+        <FontAwesomeIcon icon={faCode} className="fa-fw profile__icon" />
+        Frontend Developer
       </h1>
       <div className="profile__photo">
         <Image src={FotodeGina} alt="Gina`s profile photo" />

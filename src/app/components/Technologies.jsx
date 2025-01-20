@@ -30,7 +30,6 @@ function Technologies() {
           <FontAwesomeIcon icon={faJs} className="fa-fw" />
           <FontAwesomeIcon icon={faDatabase} className="fa-fw" />
           <FontAwesomeIcon icon={faSass} className="fa-fw" />
-
           <FontAwesomeIcon icon={faGithub} className="fa-fw" />
           <FontAwesomeIcon icon={faGit} className="fa-fw" />
         </div>
