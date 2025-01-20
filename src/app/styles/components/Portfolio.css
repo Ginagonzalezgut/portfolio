@@ -9,13 +9,14 @@
   line-height: 1;
   letter-spacing: 4;
   font-weight: 800;
-  margin-bottom: 40px;
+  margin: 10px 0 20px;
+  color: #333;
 }
 .portfolio__projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
-  gap: 40px;
+  gap: 24px;
   flex: 1;
 }
 .portfolio__project--one {
@@ -26,12 +27,15 @@
   border-radius: 10px;
   overflow: hidden;
   background-color: #aad9d8;
-  color: black;
-  font-size: 24px;
+  color: #000000;
+
   padding: 25px;
   letter-spacing: 1;
   line-height: 1.6;
   font-weight: 400;
+}
+.portfolio__project--one__tittle {
+  font-size: 32px;
 }
 
 .portfolio__project--two {

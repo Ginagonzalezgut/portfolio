@@ -13,16 +13,11 @@ import { mali, quicksand } from "../fonts";
 function Portfolio() {
   return (
     <div className="portfolio">
-      <h1 className="portfolio__title text-center">
-        Frontend - <span className=" text-center ">Developer</span>
-      </h1>
+      <h1 className="portfolio__title">Frontend Developer</h1>
       <div className="portfolio__projects">
         <div className="portfolio__project--one text-start d-flex justify-content-between flex-column">
-          <p>
-            Hi there! I'm a web developer passionate about crafting stunning,
-            interactive web experiences.
-          </p>
-          <p className="text-end fs-5">Read more to discover my work!</p>
+          <p className="portfolio__project--one__tittle">Discover my work</p>
+          <p className="portfolio__project--one__text">Read more!</p>
         </div>
         <div className="portfolio__project--two">
           <div className="portfolio__project--two__top d-flex justify-content-center align-items-center flex-column">

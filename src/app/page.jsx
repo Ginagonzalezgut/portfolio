@@ -3,6 +3,7 @@ import Profile from "./components/Profile";
 
 import "./styles/components/Home.css";
 import AboutMe from "./components/AboutMe";
+import Technologies from "./components/Technologies";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
             <Portfolio />
           </div>
         </div>
+        <Technologies />
         <AboutMe />
       </div>
     </>
