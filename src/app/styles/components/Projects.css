@@ -11,26 +11,22 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-block: 30px;
-}
-.projects__tittle {
-  font-size: 40px;
-  font-weight: 600;
-}
 
-.projects__button {
-  display: block;
-  border-radius: 50px;
-  background-color: var(--brand);
+  margin-bottom: 40px;
+}
+.projects__fulltittle {
+  font-weight: 600;
 }
 
 .projects__boxes {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  justify-content: center;
+  gap: 60px;
 }
 .project__image {
-  border: 1px solid red;
   width: 400px;
   padding-right: 15px;
+  border-radius: 20px;
 }
