@@ -3,8 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  height: 100vh;
+  padding: 80px 40px;
   background-color: #f4f5f6;
   border-radius: 20px;
 }
@@ -41,10 +40,30 @@
   justify-content: center;
   justify-content: center;
   gap: 60px;
+  margin-bottom: 80px;
 }
-
 .project__image {
-  width: 400px;
-  padding-right: 15px;
+  aspect-ratio: 2/1;
   border-radius: 20px;
+  margin-bottom: 18px;
+  object-fit: cover;
+  object-position: top;
+  width: 400px;
+}
+.project__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.project__text {
+  color: var(--secondtextcolor);
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.5;
+  max-width: 400px;
+  text-align: start;
+}
+.project__link {
+  color: var(--brand);
 }

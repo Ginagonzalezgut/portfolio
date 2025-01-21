@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import setProject from "../../../public/setProject.png";
+
 import spotsBarcelona from "../../../public/spotsbarcelona.png";
 import "../styles/components/Projects.css";
 import taskMaster from "../../../public/taskMaster.png";
@@ -25,19 +25,23 @@ function Projects() {
           <p className="project__title">Task List Application</p>
           <p className="project__text">
             Online tool to manage and organize your daily tasks.
-            <br /> Stack: React - Vite - SASS - React Router
           </p>
+          <a className="project__link" href="#">
+            View
+          </a>
         </div>
         <div className="project">
           <Image className="project__image" src={spotsBarcelona} alt="" />
           <p className="project__title"> Best Spots in Barcelona</p>
           <p className="project__text">
-            A web guide to discover the best places in Barcelona. <br />
-            Stack: React - Vite - SASS - React Router - MySQL - Express
+            A web guide to discover the best places in Barcelona.
           </p>
+          <a className="project__link" href="#">
+            View
+          </a>
         </div>
       </div>
-      <button className="bg-brand rounded-full w-40 py-2 text-white 	">
+      <button className="bg-brand rounded-full w-40 py-2 text-white">
         View All Projects <FontAwesomeIcon icon={faArrowRight} />
       </button>
     </div>
