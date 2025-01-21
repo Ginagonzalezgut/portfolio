@@ -1,21 +1,38 @@
 .projects {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
   padding: 40px;
   height: 100vh;
   background-color: #f4f5f6;
   border-radius: 20px;
 }
-.projects__intro {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 
-  margin-bottom: 40px;
+.projects__intro {
+  margin-bottom: 80px;
+  text-align: center;
 }
-.projects__fulltittle {
+
+.projects__title {
   font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.projects__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.projects__decoration {
+  width: 150px;
+  height: 2px;
+  border: 1px solid var(--brand);
+  margin: auto;
 }
 
 .projects__boxes {
@@ -25,6 +42,7 @@
   justify-content: center;
   gap: 60px;
 }
+
 .project__image {
   width: 400px;
   padding-right: 15px;

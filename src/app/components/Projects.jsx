@@ -10,17 +10,18 @@ function Projects() {
   return (
     <div className="projects">
       <div className="projects__intro">
-        <h2 className="text-4xl">
-          Recent <span className="projects__fulltittle">Projects</span>
+        <h2 className="projects__title">
+          <span className="projects__subtitle">
+            The Best of My Creativity and Code
+          </span>
+          Explore my latest Projects
         </h2>
-        <button className="bg-brand rounded-full w-40 py-2 text-white	">
-          View All Projects <FontAwesomeIcon icon={faArrowRight} />
-        </button>
+        <div className="projects__decoration"></div>
       </div>
 
       <div className="projects__boxes">
         <div className="project">
-          <Image className="project__image" src={spotsBarcelona} alt="" />
+          <Image className="project__image" src={taskMaster} alt="" />
           <p className="project__title">Task List Application</p>
           <p className="project__text">
             Online tool to manage and organize your daily tasks.
@@ -28,7 +29,7 @@ function Projects() {
           </p>
         </div>
         <div className="project">
-          <Image className="project__image" src={taskMaster} alt="" />
+          <Image className="project__image" src={spotsBarcelona} alt="" />
           <p className="project__title"> Best Spots in Barcelona</p>
           <p className="project__text">
             A web guide to discover the best places in Barcelona. <br />
@@ -36,6 +37,9 @@ function Projects() {
           </p>
         </div>
       </div>
+      <button className="bg-brand rounded-full w-40 py-2 text-white 	">
+        View All Projects <FontAwesomeIcon icon={faArrowRight} />
+      </button>
     </div>
   );
 }
