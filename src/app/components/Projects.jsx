@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import spotsBarcelona from "../../../public/spotsbarcelona.png";
+import spotsBarcelona from "../../../public/spotsBarcelona.png";
 import "../styles/components/Projects.css";
 import taskMaster from "../../../public/taskMaster.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,7 +27,7 @@ function Projects() {
             Online tool to manage and organize your daily tasks.
           </p>
           <a className="project__link" href="#">
-            View
+            View <FontAwesomeIcon icon={faArrowRight} />
           </a>
         </div>
         <div className="project">
@@ -37,7 +37,7 @@ function Projects() {
             A web guide to discover the best places in Barcelona.
           </p>
           <a className="project__link" href="#">
-            View
+            View <FontAwesomeIcon icon={faArrowRight} />
           </a>
         </div>
       </div>

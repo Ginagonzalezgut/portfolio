@@ -9,7 +9,7 @@
 }
 
 .projects__intro {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -40,15 +40,14 @@
   justify-content: center;
   justify-content: center;
   gap: 60px;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 .project__image {
-  aspect-ratio: 2/1;
   border-radius: 20px;
-  margin-bottom: 18px;
+
   object-fit: cover;
   object-position: top;
-  width: 400px;
+  width: 900px;
   transition: transform 1s ease;
   transform-origin: center;
 }
@@ -71,5 +70,11 @@
   text-align: start;
 }
 .project__link {
+  display: inline-block;
+  margin-top: 10px;
   color: var(--brand);
+  font-weight: 600;
+}
+.project__link:hover {
+  color: black;
 }
