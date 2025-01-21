@@ -50,6 +50,7 @@
   width: 100%;
 }
 .portfolio__connect__link {
+  border: 1px solid #ffffff;
   background-color: #ffffff;
   color: black;
   font-size: 18px;
@@ -58,8 +59,8 @@
   flex: 1;
   display: block;
 }
-.portfolio__connect :hover {
-  border: 1px solid var(--brand);
+.portfolio__connect__link:hover {
+  border-color: var(--brand);
 }
 
 .portfolio__connect__link svg {

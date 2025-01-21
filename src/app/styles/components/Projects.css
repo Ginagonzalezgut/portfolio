@@ -32,6 +32,7 @@
   height: 2px;
   border: 1px solid var(--brand);
   margin: auto;
+  margin-bottom: 30px;
 }
 
 .projects__boxes {
@@ -40,6 +41,7 @@
   justify-content: center;
   justify-content: center;
   gap: 60px;
+
   margin-bottom: 30px;
 }
 .project__image {
@@ -50,15 +52,13 @@
   width: 900px;
   transition: transform 1s ease;
   transform-origin: center;
+  margin-bottom: 30px;
 }
 
-.project__image:hover {
-  transform: scale(1.1);
-}
 .project__title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-align: left;
 }
 .project__text {

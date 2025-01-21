@@ -41,12 +41,14 @@ function Portfolio() {
         <a
           className="portfolio__connect__link"
           href="https://github.com/Ginagonzalezgut"
+          target="_blank"
         >
           <FontAwesomeIcon icon={faGithub} className="fa-fw " /> Github
         </a>
         <a
           className="portfolio__connect__link"
           href="https://www.linkedin.com/in/ginagonzalezgut/"
+          target="_blank"
         >
           <FontAwesomeIcon icon={faLinkedin} className="fa-fw " /> Linkedin
         </a>
