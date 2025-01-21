@@ -38,7 +38,10 @@ function Portfolio() {
         </span>
       </div>
       <div className="portfolio__connect">
-        <a className="portfolio__connect__link" href="">
+        <a
+          className="portfolio__connect__link"
+          href="https://github.com/Ginagonzalezgut"
+        >
           <FontAwesomeIcon icon={faGithub} className="fa-fw " /> Github
         </a>
         <a

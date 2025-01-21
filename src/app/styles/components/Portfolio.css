@@ -26,7 +26,12 @@
 .portfolio__link {
   color: var(--brand);
   font-weight: 600;
+  display: inline-block;
   margin-top: 30px;
+}
+.portfolio__link:hover {
+  border-bottom: 2px solid var(--brand);
+  padding-bottom: 2px;
 }
 
 .portfolio__connect {
@@ -38,6 +43,7 @@
   justify-self: flex-end;
   width: 100%;
   gap: 30px;
+  transition: border-color 0.3s ease;
 }
 
 .portfolio__connect__links {
@@ -51,6 +57,9 @@
   border-radius: 10px;
   flex: 1;
   display: block;
+}
+.portfolio__connect :hover {
+  border: 1px solid var(--brand);
 }
 
 .portfolio__connect__link svg {

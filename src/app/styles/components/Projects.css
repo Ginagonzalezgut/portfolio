@@ -49,6 +49,12 @@
   object-fit: cover;
   object-position: top;
   width: 400px;
+  transition: transform 1s ease;
+  transform-origin: center;
+}
+
+.project__image:hover {
+  transform: scale(1.1);
 }
 .project__title {
   font-size: 20px;
