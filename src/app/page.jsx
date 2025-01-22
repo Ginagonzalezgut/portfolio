@@ -4,6 +4,7 @@ import "./styles/components/Home.css";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Review from "./components/Review";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Technologies />
       <Projects />
       <Review />
+      <Contact />
     </>
   );
 }

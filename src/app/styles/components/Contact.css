@@ -1,0 +1,30 @@
+.contact {
+  border-radius: 20px;
+  background-color: #f4f5f6;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--brand);
+}
+
+.contact__text {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contact__button {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+
+  display: inline-block;
+}
+.contact__buttons {
+  display: flex;
+  flex-direction: row;
+}
