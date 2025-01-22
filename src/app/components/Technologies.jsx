@@ -21,7 +21,7 @@ function Technologies() {
   return (
     <>
       <div className="technologies">
-        <Heading title="My tech stack" />
+        <Heading subtitle="My tech stack" />
         <div className="technologies__icons">
           <FontAwesomeIcon icon={faNodeJs} className="fa-fw" />
           <FontAwesomeIcon icon={faHtml5} className="fa-fw" />

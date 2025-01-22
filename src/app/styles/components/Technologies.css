@@ -1,25 +1,19 @@
 .technologies {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.technologies__title {
-  font-weight: 600;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 60px;
-  border-bottom: 2px solid var(--brand);
+  padding: 50px;
+  height: 50vh;
 }
 
 .technologies__icons {
   color: #424242;
-  font-size: 60px;
+  font-size: 50px;
   display: flex;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 40px;
   justify-content: center;
-  max-width: 800px;
-  margin: 80px auto;
+  max-width: 1000px;
+  margin: 40px auto;
 }

@@ -11,11 +11,10 @@
 .projects__boxes {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  justify-content: center;
-  gap: 60px;
-
-  margin-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 150px;
 }
 .project__image {
   border-radius: 5px;
