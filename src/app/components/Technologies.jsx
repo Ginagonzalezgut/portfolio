@@ -6,7 +6,6 @@ import {
   faGit,
   faGithub,
   faHtml5,
-  faJava,
   faJs,
   faNodeJs,
   faReact,
@@ -14,7 +13,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import "../styles/components/Technologies.css";
-import { faCode, faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import Heading from "./Heading";
 
 function Technologies() {

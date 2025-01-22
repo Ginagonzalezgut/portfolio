@@ -1,8 +1,6 @@
 import React from "react";
 import Heading from "./Heading";
 import "../styles/components/Review.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import ReviewBox from "./ReviewBox";
 
 function Review() {

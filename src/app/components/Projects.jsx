@@ -6,6 +6,7 @@ import taskMaster from "../../../public/taskMaster.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Heading from "./Heading";
+
 function Projects() {
   return (
     <div className="projects">
@@ -22,7 +23,7 @@ function Projects() {
           <Image className="project__image" src={spotsBarcelona} alt="" />
         </div>
       </div>
-      <button className="projects__button bg-brand rounded-full w-60 py-2 text-white">
+      <button className="projects__button">
         View All Projects <FontAwesomeIcon icon={faArrowRight} />
       </button>
     </div>

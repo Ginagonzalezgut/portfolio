@@ -3,7 +3,7 @@ import "../styles/components/Profile.css";
 import Image from "next/image";
 import FotodeGina from "../../../public/ginaround.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser, faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 function Profile() {
