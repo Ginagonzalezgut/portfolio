@@ -15,12 +15,13 @@ import {
 
 import "../styles/components/Technologies.css";
 import { faCode, faDatabase } from "@fortawesome/free-solid-svg-icons";
+import Heading from "./Heading";
 
 function Technologies() {
   return (
     <>
-      <div>
-        <div></div>
+      <div className="technologies">
+        <Heading title="My tech stack" />
         <div className="technologies__icons">
           <FontAwesomeIcon icon={faNodeJs} className="fa-fw" />
           <FontAwesomeIcon icon={faHtml5} className="fa-fw" />

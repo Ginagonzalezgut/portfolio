@@ -1,3 +1,18 @@
+.technologies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.technologies__title {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 60px;
+  border-bottom: 2px solid var(--brand);
+}
+
 .technologies__icons {
   color: #424242;
   font-size: 60px;
@@ -6,5 +21,5 @@
   gap: 60px;
   justify-content: center;
   max-width: 800px;
-  margin: 120px auto;
+  margin: 80px auto;
 }

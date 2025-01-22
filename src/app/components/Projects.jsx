@@ -6,18 +6,14 @@ import "../styles/components/Projects.css";
 import taskMaster from "../../../public/taskMaster.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Heading from "./Heading";
 function Projects() {
   return (
     <div className="projects">
-      <div className="projects__intro">
-        <h2 className="projects__title">
-          <span className="projects__subtitle">
-            The Best of My Creativity and Code
-          </span>
-          Explore my latest Projects
-        </h2>
-        <div className="projects__decoration"></div>
-      </div>
+      <Heading
+        title="Explore my latest projects"
+        subtitle="The best of my creativity and code"
+      />
 
       <div className="projects__boxes">
         <div className="project">

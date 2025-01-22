@@ -1,24 +1,8 @@
 import React from "react";
 import "../styles/components/Portfolio.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCss,
-  faGithub,
-  faHtml5,
-  faJava,
-  faLinkedin,
-  faNodeJs,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
-import { mali, quicksand } from "../fonts";
-import {
-  faAlignRight,
-  faArrowDown,
-  faArrowRight,
-  faQuoteRight,
-  faRightFromBracket,
-  faRightLeft,
-} from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 function Portfolio() {
   return (
@@ -34,7 +18,7 @@ function Portfolio() {
         </p>
         <span className="portfolio__link">
           See my projects
-          <FontAwesomeIcon icon={faArrowDown} className="fa-fw " />
+          <FontAwesomeIcon icon={faArrowDown} className="fa-fw" />
         </span>
       </div>
       <div className="portfolio__connect">
@@ -43,14 +27,14 @@ function Portfolio() {
           href="https://github.com/Ginagonzalezgut"
           target="_blank"
         >
-          <FontAwesomeIcon icon={faGithub} className="fa-fw " /> Github
+          <FontAwesomeIcon icon={faGithub} className="fa-fw" /> Github
         </a>
         <a
           className="portfolio__connect__link"
           href="https://www.linkedin.com/in/ginagonzalezgut/"
           target="_blank"
         >
-          <FontAwesomeIcon icon={faLinkedin} className="fa-fw " /> Linkedin
+          <FontAwesomeIcon icon={faLinkedin} className="fa-fw" /> Linkedin
         </a>
       </div>
     </div>
