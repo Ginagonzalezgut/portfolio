@@ -45,36 +45,17 @@
   margin-bottom: 30px;
 }
 .project__image {
-  border-radius: 20px;
-
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   object-fit: cover;
   object-position: top;
-  width: 900px;
+  width: 400px;
   transition: transform 1s ease;
   transform-origin: center;
   margin-bottom: 30px;
 }
 
-.project__title {
-  font-size: 18px;
+.projects__button {
+  background-color: #f11158;
   font-weight: 600;
-  margin-bottom: 5px;
-  text-align: left;
-}
-.project__text {
-  color: var(--secondtextcolor);
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.5;
-  max-width: 400px;
-  text-align: start;
-}
-.project__link {
-  display: inline-block;
-  margin-top: 10px;
-  color: var(--brand);
-  font-weight: 600;
-}
-.project__link:hover {
-  color: black;
 }

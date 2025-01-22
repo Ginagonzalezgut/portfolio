@@ -1,4 +1,4 @@
-import { Raleway, Quicksand } from "next/font/google";
+import { Raleway, Quicksand, Sora } from "next/font/google";
 
 export const quicksand = Quicksand({
   subsets: ["latin"],
@@ -6,6 +6,11 @@ export const quicksand = Quicksand({
 });
 
 export const raleway = Raleway({
+  subsets: ["latin"],
+  display: "swap",
+});
+
+export const sora = Sora({
   subsets: ["latin"],
   display: "swap",
 });
