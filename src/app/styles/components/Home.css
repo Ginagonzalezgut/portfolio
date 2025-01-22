@@ -1,9 +1,9 @@
-.row,
+.hero > .row,
 .hero {
   height: 100vh;
   min-height: 800px;
 }
 
-.row {
+.hero .row {
   padding-block: 20px;
 }

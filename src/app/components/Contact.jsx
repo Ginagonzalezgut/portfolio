@@ -1,21 +1,17 @@
 import React from "react";
 import "../styles/components/Contact.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Title from "./Title";
+import ButtonLink from "./ButtonLink";
 
 function Contact() {
   return (
     <div className="contact">
-      <Title> Let`s create your next big idea</Title>
-
-      <div className="contac__buttons">
-        <button className="contact__button">
-          <FontAwesomeIcon icon={faEnvelope} />
-          Email
-        </button>
-        <button className="contact__button">linkedin</button>
-      </div>
+      <Title>Let`s create your next big idea</Title>
+      <p className="mb-4">
+        Let’s turn your vision into reality! Together, we’ll design and build
+        innovative solutions tailored to your goals.
+      </p>
+      <ButtonLink>Email me</ButtonLink>
     </div>
   );
 }

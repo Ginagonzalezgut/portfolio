@@ -26,16 +26,3 @@
   transform-origin: center;
   margin-bottom: 30px;
 }
-
-.projects__button {
-  background-color: #f11158;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  font-weight: 600;
-  padding: 10px 20px;
-}
-
-.projects__button svg {
-  margin-left: 10px;
-}

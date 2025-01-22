@@ -3,13 +3,12 @@ import Image from "next/image";
 import spotsBarcelona from "../../../public/spotsBarcelona.png";
 import "../styles/components/Projects.css";
 import taskMaster from "../../../public/taskMaster.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Heading from "./Heading";
+import ButtonLink from "./ButtonLink";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <Heading
         title="Explore my latest projects"
         subtitle="The best of my creativity and code"
@@ -23,9 +22,7 @@ function Projects() {
           <Image className="project__image" src={spotsBarcelona} alt="" />
         </div>
       </div>
-      <button className="projects__button">
-        View All Projects <FontAwesomeIcon icon={faArrowRight} />
-      </button>
+      <ButtonLink>View All Projects</ButtonLink>
     </div>
   );
 }
