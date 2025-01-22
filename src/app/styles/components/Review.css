@@ -1,0 +1,28 @@
+.review__section {
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  margin-top: 40px;
+}
+.review__boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+.review__box {
+  padding: 20px;
+  /* border: 1px solid var(--brand); */
+  background-color: white;
+  text-align: center;
+}
+.review__decoration {
+  border: 1px solid var(--brand);
+  height: 2px;
+  width: 30px;
+  margin: auto;
+  margin-top: 20px;
+}
+.review__icon {
+  color: var(--brand);
+}

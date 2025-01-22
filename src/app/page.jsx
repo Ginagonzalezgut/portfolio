@@ -3,11 +3,12 @@ import Profile from "./components/Profile";
 import "./styles/components/Home.css";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
+import Review from "./components/Review";
 
 export default function Home() {
   return (
     <>
-      <div className="container">
+      <div className="container hero">
         <div className="row">
           <div className="col col-5">
             <Profile />
@@ -16,9 +17,11 @@ export default function Home() {
             <Portfolio />
           </div>
         </div>
-        <Technologies />
-        <Projects />
       </div>
+
+      <Technologies />
+      <Projects />
+      <Review />
     </>
   );
 }

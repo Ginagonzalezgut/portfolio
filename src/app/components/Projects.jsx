@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-
 import spotsBarcelona from "../../../public/spotsBarcelona.png";
 import "../styles/components/Projects.css";
 import taskMaster from "../../../public/taskMaster.png";
