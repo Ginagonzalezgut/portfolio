@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/components/Profile.css";
-import Image from "next/image";
-import FotodeGina from "../../../public/ginaround.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
@@ -14,9 +12,6 @@ function Profile() {
         <FontAwesomeIcon icon={faCode} className="fa-fw profile__icon" />
         Frontend Developer
       </h1>
-      <div className="profile__photo">
-        <Image src={FotodeGina} alt="Gina`s profile photo" />
-      </div>
 
       <div className="profile__desc">
         <p className="profile__name">

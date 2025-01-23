@@ -23,10 +23,12 @@
   font-weight: 600;
   display: inline-block;
   margin-top: 30px;
-}
-.portfolio__link:hover {
-  border-bottom: 2px solid var(--brand);
+  border-bottom: 2px solid transparent;
   padding-bottom: 2px;
+}
+
+.portfolio__link:hover {
+  border-color: var(--brand);
 }
 
 .portfolio__connect__links {

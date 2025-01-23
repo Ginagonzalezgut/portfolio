@@ -1,5 +1,7 @@
 .profile {
-  background-color: #ec5b54;
+  background-image: url(../../../../public/pexels-cottonbro-2773518.jpg);
+  background-size: cover;
+  background-position: center;
   height: 100%;
   position: relative;
   display: flex;
@@ -22,7 +24,7 @@
 }
 .profile__photo {
   height: 400px;
-  width: 400px;
+  width: 200px;
   position: absolute;
   left: 50%;
   top: 20%;
@@ -30,9 +32,9 @@
 }
 
 .profile__photo img {
-  width: 300px;
+  width: 320px;
   height: auto;
-  bottom: -20px;
+  top: 180px;
   position: absolute;
 }
 
@@ -43,7 +45,7 @@
 }
 
 .profile__name {
-  color: white;
+  color: inherit;
   font-size: 40px;
   line-height: normal;
 }
