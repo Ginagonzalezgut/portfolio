@@ -1,0 +1,15 @@
+.header-menu {
+  color: #707c84;
+  font-weight: 600;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+}
+
+.header-menu a:hover {
+  color: black;
+}
+
+.header-menu .menu {
+  justify-content: end;
+}

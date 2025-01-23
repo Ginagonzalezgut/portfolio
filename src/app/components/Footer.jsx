@@ -37,10 +37,10 @@ function Footer() {
             </nav>
           </div>
         </div>
-        <div className="row footer__copyright">
-          <p>Copyright © 2025 Gina González Gutiérrez</p>
-        </div>
       </div>
+      <p className="footer__copyright">
+        Copyright © 2025 Gina González Gutiérrez
+      </p>
     </footer>
   );
 }

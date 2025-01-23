@@ -1,7 +1,7 @@
 .footer {
   background-color: #424242;
   color: white;
-  padding: 100px 0;
+  padding: 100px 0 20px;
 }
 .footer__icons {
   display: flex;
@@ -14,5 +14,10 @@
   color: var(--brand);
 }
 .footer__copyright {
+  font-size: 14px;
   text-align: center;
+  margin: 120px 0 0;
+  border-top: 1px solid #777;
+  padding: 40px 0 20px;
+  color: #fff;
 }

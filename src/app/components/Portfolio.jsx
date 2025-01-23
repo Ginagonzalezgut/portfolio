@@ -5,6 +5,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import Title from "./Title";
 import ConnectLinks from "./ConnectLinks";
+import Header from "./Header";
 
 function Portfolio() {
   return (
