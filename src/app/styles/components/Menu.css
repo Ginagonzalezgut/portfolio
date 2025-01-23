@@ -1,0 +1,8 @@
+.menu {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.menu a:hover {
+  color: var(--brand);
+}

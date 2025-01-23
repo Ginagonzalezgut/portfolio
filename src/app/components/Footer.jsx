@@ -17,7 +17,7 @@ function Footer() {
           </div>
 
           <div className="col">
-            <nav>
+            <nav className="footer__icon">
               <a href="https://www.linkedin.com/in/ginagonzalezgut/">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
@@ -31,7 +31,6 @@ function Footer() {
           </div>
         </div>
         <div className="row">
-          {" "}
           <p>Copyright © 2025 Gina González Gutiérrez</p>
         </div>
       </div>

@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/components/Menu.css";
 
 function Menu() {
   return (
-    <nav>
+    <nav className="menu">
       <a href="/">Home</a>
       <a href="/">Projects</a>
       <a href="/">About</a>
