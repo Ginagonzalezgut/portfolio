@@ -1,11 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles/globals.css";
+import "../styles/globals.css";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { raleway } from "./fonts";
-import Menu from "./components/Menu";
-import Header from "./components/Header";
+import Header from "../components/Header";
 config.autoAddCss = false;
 
 export const metadata = {

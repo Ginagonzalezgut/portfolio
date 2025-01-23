@@ -1,11 +1,11 @@
-import Portfolio from "./components/Portfolio";
-import Profile from "./components/Profile";
-import "./styles/components/Home.css";
-import Technologies from "./components/Technologies";
-import Projects from "./components/Projects";
-import Review from "./components/Review";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Portfolio from "../components/Portfolio";
+import Profile from "../components/Profile";
+import "../styles/components/Home.css";
+import Technologies from "../components/Technologies";
+import Projects from "../components/Projects";
+import Review from "../components/Review";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
