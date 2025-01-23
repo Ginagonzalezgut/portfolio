@@ -5,10 +5,7 @@ import "../styles/components/Header.css";
 function Header() {
   return (
     <div className="header-menu">
-      <div className="container">
-        {" "}
-        <Menu />
-      </div>
+      <Menu />
     </div>
   );
 }

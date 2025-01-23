@@ -2,8 +2,5 @@
 .hero {
   height: 100vh;
   min-height: 800px;
-}
-
-.hero .row {
-  padding-block: 20px;
+  max-height: 900px;
 }

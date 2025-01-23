@@ -22,7 +22,9 @@ function Portfolio() {
           <FontAwesomeIcon icon={faArrowDown} className="fa-fw" />
         </a>
       </div>
-      <ConnectLinks />
+      <div className="portfolio__links">
+        <ConnectLinks />
+      </div>
     </div>
   );
 }

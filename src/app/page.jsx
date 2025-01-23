@@ -10,8 +10,8 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-      <div className="container hero">
-        <div className="row">
+      <div className="hero">
+        <div className="row g-0">
           <div className="col col-5">
             <Profile />
           </div>

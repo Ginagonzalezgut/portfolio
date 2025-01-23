@@ -1,8 +1,6 @@
 .review__section {
-  height: 100vh;
   width: 100%;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 60px 0;
 }
 .review__boxes {
   display: grid;
