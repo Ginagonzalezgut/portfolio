@@ -4,6 +4,7 @@ import "./styles/globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { raleway } from "./fonts";
+import Menu from "./components/Menu";
 config.autoAddCss = false;
 
 export const metadata = {
@@ -14,7 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={raleway.className}>{children}</body>
+      <body className={raleway.className}>
+        <Menu />
+        {children}
+      </body>
     </html>
   );
 }
