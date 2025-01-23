@@ -5,9 +5,9 @@ function Menu() {
   return (
     <nav className="menu">
       <a href="/">Home</a>
-      <a href="/">Projects</a>
-      <a href="/">About</a>
-      <a href="/">Contact</a>
+      <a href="/projects">Projects</a>
+      <a href="/about">About</a>
+      <a href="/#contact">Contact</a>
     </nav>
   );
 }

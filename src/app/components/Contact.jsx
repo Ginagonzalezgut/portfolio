@@ -5,7 +5,7 @@ import ButtonLink from "./ButtonLink";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <Title>Let`s create your next big idea</Title>
       <p className="mb-4">
         Let’s turn your vision into reality! Together, we’ll design and build
