@@ -8,13 +8,17 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../styles/components/Footer.css";
+import Image from "next/image";
+import ginaLogo from "../../public/ginaLogo2.png";
 
 function Footer() {
   return (
     <footer className="footer ">
       <div className="container">
-        <div className="row">
-          <div className="col">Logo</div>
+        <div className="row align-items-center">
+          <div className="col">
+            <Image className="footer__logo" src={ginaLogo} alt="Gina`s Logo" />
+          </div>
           <div className="col">
             {" "}
             <Menu />
