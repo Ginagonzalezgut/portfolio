@@ -5,11 +5,10 @@ import Link from "next/link";
 function Menu() {
   return (
     <nav className="menu">
-      <Link href="/" />
-      <a href="/">Home</a>
-      <a href="/projects">Projects</a>
-      <a href="/about">About</a>
-      <Link href="/#contact">Contact</Link>
+      <Link href="/">Home</Link>
+      <Link href="/projects">Projects</Link>
+      <Link href="/about">About</Link>
+      <Link href="#contact">Contact</Link>
     </nav>
   );
 }
