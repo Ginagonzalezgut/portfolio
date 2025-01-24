@@ -3,7 +3,7 @@ import "../styles/globals.css";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import { raleway } from "./fonts";
+import { raleway, sora } from "./fonts";
 import Header from "../components/Header";
 config.autoAddCss = false;
 
@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={raleway.className}>
+      <body className={sora.className}>
         <Header />
         {children}
       </body>

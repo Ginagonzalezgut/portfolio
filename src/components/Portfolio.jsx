@@ -11,10 +11,7 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <div>
-        <Title>
-          Let’s <span className="playdown">build</span> something amazing{" "}
-          <span className="highlight">together</span>!
-        </Title>
+        <Title>Let’s build something amazing together</Title>
         <p className="portfolio__text">
           In programming, I’ve discovered an exciting world where creativity
           meets logic—a space where I can bring ideas to life while letting my

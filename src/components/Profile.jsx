@@ -7,12 +7,6 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 function Profile() {
   return (
     <div className="profile">
-      <h1 className="profile__title">
-        {" "}
-        <FontAwesomeIcon icon={faCode} className="fa-fw profile__icon" />
-        Frontend Developer
-      </h1>
-
       <div className="profile__desc">
         <p className="profile__name">
           I'm, <br />{" "}
