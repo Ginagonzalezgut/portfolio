@@ -15,11 +15,10 @@
   text-align: center;
 }
 .review__decoration {
-  border: 1px solid var(--brand);
-  height: 2px;
-  width: 30px;
+  border-top: 1px solid var(--brand);
+  height: 1px;
+  width: 50px;
   margin: auto;
-  margin-top: 20px;
 }
 .review__icon {
   color: var(--brand);

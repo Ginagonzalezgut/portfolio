@@ -7,10 +7,27 @@ function Review() {
   return (
     <div className="review__section">
       <Heading title="What people say" />
-      <div>
-        <div className="review__boxes container">
-          <ReviewBox />
-          <ReviewBox /> <ReviewBox /> <ReviewBox />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            {" "}
+            <ReviewBox />
+          </div>
+          <div className="col-md-4">
+            {" "}
+            <ReviewBox />
+          </div>{" "}
+          <div className="col-md-4">
+            {" "}
+            <ReviewBox />
+          </div>{" "}
+        </div>
+        <div className="row">
+          {" "}
+          <div className="col-md-4 offset-md-4">
+            {" "}
+            <ReviewBox />
+          </div>
         </div>
       </div>
     </div>

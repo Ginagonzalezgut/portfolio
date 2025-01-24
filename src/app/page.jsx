@@ -12,10 +12,10 @@ export default function Home() {
     <>
       <div className="hero">
         <div className="row g-0">
-          <div className="col col-5">
+          <div className="col col-md-5">
             <Profile />
           </div>
-          <div className="col col-7">
+          <div className="col col-md-7">
             <Portfolio />
           </div>
         </div>

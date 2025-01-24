@@ -22,7 +22,7 @@ function Projects() {
           <Image className="project__image" src={spotsBarcelona} alt="" />
         </div>
       </div>
-      <ButtonLink>View All Projects</ButtonLink>
+      <ButtonLink>Discover My Projects</ButtonLink>
     </div>
   );
 }
