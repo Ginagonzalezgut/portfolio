@@ -8,7 +8,18 @@
   padding: 100px 50px 50px;
   position: relative;
 }
-
+.portfolio__intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+}
+.portfolio__deco {
+  border-top: 1px solid var(--brand);
+  height: 1px;
+  width: 50px;
+}
 .portfolio__text {
   margin-top: 30px;
 }
@@ -22,7 +33,7 @@
   color: var(--brand);
   font-weight: 600;
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 10px;
   border-bottom: 2px solid transparent;
   padding-bottom: 2px;
 }

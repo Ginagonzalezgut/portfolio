@@ -11,6 +11,10 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <div>
+        <div className="portfolio__intro">
+          <div className="portfolio__deco"></div> <p>frontend developer</p>
+        </div>
+
         <Title>Let’s build something amazing together</Title>
         <p className="portfolio__text">
           In programming, I’ve discovered an exciting world where creativity
