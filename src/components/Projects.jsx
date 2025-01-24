@@ -8,7 +8,7 @@ import ButtonLink from "./ButtonLink";
 
 function Projects() {
   return (
-    <div className="projects" id="projects">
+    <div className="projects container" id="projects">
       <Heading
         title="Explore my latest projects"
         subtitle="The best of my creativity and code"

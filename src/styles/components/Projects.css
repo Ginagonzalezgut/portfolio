@@ -9,12 +9,18 @@
 
 .projects__boxes {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
   gap: 150px;
 }
+@media (min-width: 768px) {
+  .projects__boxes {
+    flex-direction: row;
+  }
+}
+
 .project__image {
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

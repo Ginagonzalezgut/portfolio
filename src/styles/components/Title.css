@@ -1,8 +1,13 @@
 .title {
-  font-size: 58px;
+  font-size: 30px;
   letter-spacing: 2;
   font-weight: 600;
   color: black;
   line-height: 1.4;
   text-transform: capitalize;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 58px;
+  }
 }

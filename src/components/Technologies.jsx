@@ -20,18 +20,20 @@ function Technologies() {
   return (
     <>
       <div className="technologies">
-        <Heading subtitle="My tech stack" />
-        <div className="technologies__icons">
-          <FontAwesomeIcon icon={faNodeJs} className="fa-fw" />
-          <FontAwesomeIcon icon={faHtml5} className="fa-fw" />
-          <FontAwesomeIcon icon={faReact} className="fa-fw" />
-          <FontAwesomeIcon icon={faCss} className="fa-fw" />
-          <FontAwesomeIcon icon={faBootstrap} className="fa-fw" />
-          <FontAwesomeIcon icon={faJs} className="fa-fw" />
-          <FontAwesomeIcon icon={faDatabase} className="fa-fw" />
-          <FontAwesomeIcon icon={faSass} className="fa-fw" />
-          <FontAwesomeIcon icon={faGithub} className="fa-fw" />
-          <FontAwesomeIcon icon={faGit} className="fa-fw" />
+        <div className="container">
+          <Heading subtitle="My tech stack" />
+          <div className="technologies__icons">
+            <FontAwesomeIcon icon={faNodeJs} className="fa-fw" />
+            <FontAwesomeIcon icon={faHtml5} className="fa-fw" />
+            <FontAwesomeIcon icon={faReact} className="fa-fw" />
+            <FontAwesomeIcon icon={faCss} className="fa-fw" />
+            <FontAwesomeIcon icon={faBootstrap} className="fa-fw" />
+            <FontAwesomeIcon icon={faJs} className="fa-fw" />
+            <FontAwesomeIcon icon={faDatabase} className="fa-fw" />
+            <FontAwesomeIcon icon={faSass} className="fa-fw" />
+            <FontAwesomeIcon icon={faGithub} className="fa-fw" />
+            <FontAwesomeIcon icon={faGit} className="fa-fw" />
+          </div>
         </div>
       </div>
     </>

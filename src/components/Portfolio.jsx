@@ -10,7 +10,7 @@ import Header from "./Header";
 function Portfolio() {
   return (
     <div className="portfolio">
-      <div>
+      <div className="container">
         <div className="portfolio__intro">
           <div className="portfolio__deco"></div> <p>frontend developer</p>
           <div className="portfolio__deco"></div>
