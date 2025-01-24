@@ -3,9 +3,9 @@
   flex-direction: column;
   height: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   background-color: #f4f5f6;
-  padding: 100px 50px 50px;
+  padding: 150px 100px 50px;
   position: relative;
 }
 .portfolio__intro {
@@ -13,7 +13,12 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.portfolio__intro p {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 .portfolio__deco {
   border-top: 1px solid var(--brand);
