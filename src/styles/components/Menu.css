@@ -3,6 +3,7 @@
   gap: 30px;
   justify-content: center;
   color: white;
+  flex-direction: row;
 }
 @media (min-width: 768px) {
   .menu {

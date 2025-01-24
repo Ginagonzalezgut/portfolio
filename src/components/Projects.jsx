@@ -8,21 +8,23 @@ import ButtonLink from "./ButtonLink";
 
 function Projects() {
   return (
-    <div className="projects container" id="projects">
-      <Heading
-        title="Explore my latest projects"
-        subtitle="The best of my creativity and code"
-      />
+    <div className="projects" id="projects">
+      <div className="container">
+        <Heading
+          title="Explore my latest projects"
+          subtitle="The best of my creativity and code"
+        />
 
-      <div className="projects__boxes">
-        <div className="project">
-          <Image className="project__image" src={taskMaster} alt="" />
+        <div className="projects__boxes">
+          <div className="project">
+            <Image className="project__image" src={taskMaster} alt="" />
+          </div>
+          <div className="project">
+            <Image className="project__image" src={spotsBarcelona} alt="" />
+          </div>
         </div>
-        <div className="project">
-          <Image className="project__image" src={spotsBarcelona} alt="" />
-        </div>
+        <ButtonLink>Discover My Projects</ButtonLink>
       </div>
-      <ButtonLink>Discover My Projects</ButtonLink>
     </div>
   );
 }

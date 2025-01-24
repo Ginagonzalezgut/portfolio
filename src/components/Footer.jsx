@@ -15,16 +15,16 @@ function Footer() {
   return (
     <footer className="footer ">
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col">
+        <div className="row align-items-center text-center g-5 g-md-0">
+          <div className="col-12 col-md text-md-start">
             <Image className="footer__logo" src={ginaLogo} alt="Gina`s Logo" />
           </div>
-          <div className="col">
+          <div className="col-12 col-md">
             {" "}
             <Menu />
           </div>
 
-          <div className="col">
+          <div className="col-12 col-md">
             <nav className="footer__icons">
               <a href="https://www.linkedin.com/in/ginagonzalezgut/">
                 <FontAwesomeIcon icon={faLinkedin} />
@@ -42,7 +42,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <p className="footer__copyright">
+      <p className="footer__copyright m-0 mt-5">
         Copyright © 2025 Gina González Gutiérrez
       </p>
     </footer>

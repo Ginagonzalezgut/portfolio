@@ -1,16 +1,13 @@
 .projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 80px 40px;
+  padding: 80px 0;
   background-color: #f4f5f6;
+  text-align: center;
 }
 
 .projects__boxes {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 40px;
   gap: 150px;
