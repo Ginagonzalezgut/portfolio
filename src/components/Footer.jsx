@@ -17,7 +17,12 @@ function Footer() {
       <div className="container">
         <div className="row align-items-center text-center g-5 g-md-0">
           <div className="col-12 col-md text-md-start">
-            <Image className="footer__logo" src={ginaLogo} alt="Gina`s Logo" />
+            <Image
+              className="footer__logo"
+              src={ginaLogo}
+              alt="Gina`s Logo"
+              unoptimized
+            />
           </div>
           <div className="col-12 col-md">
             {" "}

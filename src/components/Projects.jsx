@@ -17,10 +17,20 @@ function Projects() {
 
         <div className="projects__boxes">
           <div className="project">
-            <Image className="project__image" src={taskMaster} alt="" />
+            <Image
+              className="project__image"
+              src={taskMaster}
+              alt=""
+              unoptimized
+            />
           </div>
           <div className="project">
-            <Image className="project__image" src={spotsBarcelona} alt="" />
+            <Image
+              className="project__image"
+              src={spotsBarcelona}
+              alt=""
+              unoptimized
+            />
           </div>
         </div>
         <ButtonLink>Discover My Projects</ButtonLink>
