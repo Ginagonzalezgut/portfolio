@@ -9,12 +9,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
-  gap: 150px;
+  margin-bottom: 50px;
+  gap: 30px;
 }
 @media (min-width: 768px) {
   .projects__boxes {
     flex-direction: row;
+    gap: 150px;
   }
 }
 
@@ -23,9 +24,13 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   object-fit: cover;
   object-position: top;
-  width: 400px;
+  width: 100%;
   height: auto;
   transition: transform 1s ease;
   transform-origin: center;
-  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .project__image {
+    width: 400px;
+  }
 }

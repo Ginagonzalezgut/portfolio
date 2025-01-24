@@ -22,7 +22,7 @@ function Technologies() {
       <div className="technologies">
         <div className="container">
           <Heading subtitle="My tech stack" />
-          <div className="technologies__icons">
+          <div className="technologies__icons mt-5">
             <FontAwesomeIcon icon={faNodeJs} className="fa-fw" />
             <FontAwesomeIcon icon={faHtml5} className="fa-fw" />
             <FontAwesomeIcon icon={faReact} className="fa-fw" />
