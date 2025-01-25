@@ -4,6 +4,7 @@
   height: 100vh;
   align-items: center;
   justify-content: start;
+  text-align: center;
   background-color: #f4f5f6;
   padding: 50px 0;
   position: relative;
@@ -11,15 +12,24 @@
 
 @media (min-width: 768px) {
   .portfolio {
+    text-align: initial;
     padding: 150px 100px 50px;
+    justify-content: start;
   }
 }
 .portfolio__intro {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .portfolio__intro {
+    justify-content: start;
+  }
 }
 .portfolio__intro p {
   font-size: 14px;

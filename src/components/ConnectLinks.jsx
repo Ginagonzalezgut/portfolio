@@ -5,8 +5,8 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 function ConnectLinks() {
   return (
     <div className="container">
-      <div className="row">
-        <div className="col">
+      <div className="row  g-3 g-md-0">
+        <div className="col-12 col-md">
           <a
             className="portfolio__connect__link"
             href="https://github.com/Ginagonzalezgut"
@@ -16,7 +16,7 @@ function ConnectLinks() {
           </a>
         </div>
 
-        <div className="col">
+        <div className="col-12 col-md">
           <a
             className="portfolio__connect__link"
             href="https://www.linkedin.com/in/ginagonzalezgut/"
