@@ -1,9 +1,16 @@
 .contact {
   background-color: #f4f5f6;
-  padding: 160px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  padding: 60px 0;
 }
-
+@media (min-width: 768px) {
+  .contact {
+    padding: 160px 0;
+  }
+}
 .contact__text {
   font-size: 32px;
   font-weight: 600;
@@ -16,7 +23,6 @@
   font-size: 18px;
   padding: 10px;
   border-radius: 10px;
-
   display: inline-block;
 }
 .contact__buttons {

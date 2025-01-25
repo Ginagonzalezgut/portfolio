@@ -4,13 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
-}
-
-@media (min-width: 768px) {
-  .technologies {
-    height: 50vh;
-  }
+  padding: 60px 0;
 }
 
 .technologies__icons {

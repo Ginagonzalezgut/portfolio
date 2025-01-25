@@ -1,6 +1,5 @@
 import Portfolio from "../components/Portfolio";
 import Profile from "../components/Profile";
-import "../styles/components/Home.css";
 import Technologies from "../components/Technologies";
 import Projects from "../components/Projects";
 import Review from "../components/Review";

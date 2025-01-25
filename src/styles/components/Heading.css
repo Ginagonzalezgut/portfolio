@@ -3,7 +3,7 @@
 }
 
 .heading__title {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 25px;
   text-transform: capitalize;
@@ -16,16 +16,26 @@
 
 .heading__subtitle {
   display: block;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
-
+@media (min-width: 768px) {
+  .heading__subtitle {
+    font-size: 16px;
+  }
+}
 .heading__decoration {
   border: 1px solid var(--brand);
   height: 2px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   width: 150px;
+}
+@media (min-width: 768px) {
+  .heading__decoration {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
 }

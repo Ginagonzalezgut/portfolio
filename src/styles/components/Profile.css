@@ -2,7 +2,8 @@
   background-image: url(../../../public/pexels-cottonbro-2773518.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100dvh;
+  min-height: 670px;
   position: relative;
   display: flex;
   flex-direction: column;
