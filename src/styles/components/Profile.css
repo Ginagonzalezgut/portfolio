@@ -2,12 +2,18 @@
   background-image: url(../../../public/pexels-cottonbro-2773518.jpg);
   background-size: cover;
   background-position: center;
-  height: 100dvh;
-  min-height: 670px;
+  height: 50dvh;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .profile {
+    height: 100vh;
+    min-height: 670px;
+  }
 }
 
 .profile__icon {

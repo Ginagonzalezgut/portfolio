@@ -1,8 +1,6 @@
 .portfolio {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  min-height: 670px;
   align-items: center;
   justify-content: start;
   text-align: center;
@@ -16,6 +14,8 @@
     text-align: initial;
     padding: 150px 100px 50px;
     justify-content: start;
+    height: 100vh;
+    min-height: 670px;
   }
 }
 .portfolio__intro {
@@ -44,22 +44,32 @@
 }
 .portfolio__text {
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 .portfolio__links {
-  position: absolute;
   padding: 0 40px;
   bottom: 40px;
-  width: 100%;
+}
+@media (min-width: 768px) {
+  .portfolio__links {
+    position: absolute;
+    width: 100%;
+  }
 }
 .portfolio__link {
-  color: var(--brand);
-  font-weight: 600;
-  display: inline-block;
-  margin-top: 10px;
-  border-bottom: 2px solid transparent;
-  padding-bottom: 2px;
+  display: none;
 }
-
+@media (min-width: 768px) {
+  .portfolio__link {
+    color: var(--brand);
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 26px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+  }
+}
 .portfolio__link:hover {
   border-color: var(--brand);
 }
@@ -67,20 +77,44 @@
 .portfolio__connect__links {
   width: 100%;
 }
+
 .portfolio__connect__link {
-  border: 1px solid #ffffff;
-  background-color: #ffffff;
-  color: black;
+  background-color: #424242;
+  border-radius: 100px;
   font-size: 18px;
-  padding: 10px;
-  border-radius: 10px;
-  flex: 1;
-  display: block;
+  padding: 8px;
+}
+
+@media (min-width: 768px) {
+  .portfolio__connect__link {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+    display: block;
+  }
+}
+.portfolio__name-links {
+  display: none;
+}
+@media (min-width: 768px) {
+  .portfolio__name-links {
+    display: inline;
+  }
 }
 .portfolio__connect__link:hover {
   border-color: var(--brand);
 }
 
 .portfolio__connect__link svg {
-  color: var(--brand);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .portfolio__connect__link svg {
+    color: var(--brand);
+  }
 }
