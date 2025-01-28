@@ -1,0 +1,8 @@
+.about {
+  background-color: grey;
+  height: 400px;
+}
+.about__photo {
+  width: 200px;
+  height: auto;
+}

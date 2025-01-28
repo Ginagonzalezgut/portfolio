@@ -15,8 +15,7 @@ function Portfolio() {
           <div className="portfolio__deco"></div> <p>frontend developer</p>
           <div className="portfolio__deco"></div>
         </div>
-
-        <Title>Hey, I`m Gina Go. </Title>
+        <Title>Hey, I`m Gina González. </Title>
         <p className="portfolio__text">
           In programming, I’ve discovered an exciting world where creativity
           meets logic—a space where I can bring ideas to life while letting my
