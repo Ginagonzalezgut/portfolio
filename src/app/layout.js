@@ -5,6 +5,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { raleway } from "./fonts";
 import Header from "../components/Header";
+import Footer from "@/components/Footer";
 config.autoAddCss = false;
 
 export const metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={raleway.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
