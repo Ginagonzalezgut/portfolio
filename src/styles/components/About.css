@@ -11,14 +11,34 @@
 }
 
 .about__info {
-  padding: 80px 0;
+  padding: 40px 0;
 }
+
+@media (min-width: 768px) {
+  .about__info {
+    padding: 80px 0;
+  }
+}
+
 .about__photo {
   border-radius: 20px;
-  width: 300px;
+  width: 200px;
+  display: block;
+  margin: auto;
   height: auto;
 }
+@media (min-width: 768px) {
+  .about__photo {
+    width: 300px;
+  }
+}
 .about__desc {
-  padding: 40px 80px;
   border-radius: 20px;
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  .about__desc {
+    margin-top: 0;
+    padding: 40px 80px;
+  }
 }
