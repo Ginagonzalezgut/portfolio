@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "../styles/components/ButtonLink.css";
 
-function ButtonLink({ children, href }) {
+function ButtonLink({ children, href, target }) {
   return (
-    <a href={href} className="button-link">
+    <a href={href} className="button-link" target={target}>
       {children} <FontAwesomeIcon icon={faArrowRight} />
     </a>
   );

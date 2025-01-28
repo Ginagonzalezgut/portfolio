@@ -20,7 +20,7 @@ function Projects() {
             <Image
               className="project__image"
               src={taskMaster}
-              alt=""
+              alt="A screenshot of a web app to manage lists of tasks"
               unoptimized
             />
           </div>
@@ -28,12 +28,17 @@ function Projects() {
             <Image
               className="project__image"
               src={spotsBarcelona}
-              alt=""
+              alt="A screenshot of a web app to find nice spots in Barcelona"
               unoptimized
             />
           </div>
         </div>
-        <ButtonLink>Discover My Projects</ButtonLink>
+        <ButtonLink
+          href="https://github.com/Ginagonzalezgut?tab=repositories"
+          target="_blank"
+        >
+          Discover My Projects
+        </ButtonLink>
       </div>
     </div>
   );
