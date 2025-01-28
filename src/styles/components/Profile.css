@@ -36,9 +36,15 @@
 }
 
 .profile__desc {
-  padding-left: 30px;
-  padding-bottom: 30px;
-  color: white;
+  visibility: hidden;
+}
+@media (min-width: 768px) {
+  .profile__desc {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: white;
+    visibility: visible;
+  }
 }
 
 .profile__name {
