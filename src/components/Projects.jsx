@@ -17,20 +17,32 @@ function Projects() {
 
         <div className="projects__boxes">
           <div className="project">
-            <Image
-              className="project__image"
-              src={taskMaster}
-              alt="A screenshot of a web app to manage lists of tasks"
-              unoptimized
-            />
+            <a
+              href="https://ginagonzalezgut.github.io/To-do-list/"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                className="project__image"
+                src={taskMaster}
+                alt="A screenshot of a web app to manage lists of tasks"
+                unoptimized
+              />
+            </a>
           </div>
           <div className="project">
-            <Image
-              className="project__image"
-              src={spotsBarcelona}
-              alt="A screenshot of a web app to find nice spots in Barcelona"
-              unoptimized
-            />
+            <a
+              href="https://coffee-web-one.vercel.app/"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                className="project__image"
+                src={spotsBarcelona}
+                alt="A screenshot of a web app to find nice spots in Barcelona"
+                unoptimized
+              />
+            </a>
           </div>
         </div>
         <ButtonLink
