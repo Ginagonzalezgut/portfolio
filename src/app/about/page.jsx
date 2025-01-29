@@ -4,6 +4,7 @@ import gina from "../../../public/gina.jpeg";
 import "@/styles/components/About.css";
 import Title from "@/components/Title";
 import Heading from "@/components/Heading";
+import Contact from "@/components/Contact";
 
 function About() {
   return (
@@ -40,6 +41,7 @@ function About() {
           </div>
         </div>
       </div>
+      <Contact />
     </div>
   );
 }
