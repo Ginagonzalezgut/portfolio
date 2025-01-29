@@ -1,0 +1,1 @@
+.review__section{width:100%;padding:60px 0}.review__boxes{display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr;grid-gap:30px;gap:30px}.review__box{padding:20px;background-color:#fff;text-align:center}.review__decoration{border-top:1px solid var(--brand);height:1px;width:50px;margin:auto}.review__icon{color:var(--brand)}
