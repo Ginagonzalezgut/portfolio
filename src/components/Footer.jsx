@@ -40,9 +40,6 @@ function Footer() {
               <a href="mailto:ginagonzalezgut@gmail.com">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
-              <a href="https://www.instagram.com/ginagonzalezgut/">
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
             </nav>
           </div>
         </div>

@@ -10,8 +10,17 @@ function Review() {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            {" "}
-            <ReviewBox />
+            <ReviewBox
+              author={"Griselda Gomez"}
+              profession={"Frontend Developer"}
+            >
+              Gina ha sido una excelente compañera de proyecto. Trabajar con
+              ella ha sido un verdadero placer, ya que demuestra un gran
+              compromiso, responsabilidad y disposición para colaborar. Su
+              actitud positiva y su capacidad de trabajo en equipo hacen que
+              cualquier tarea sea más llevadera y productiva. ¡Sin duda, una
+              gran aliada en cualquier proyecto! 😊
+            </ReviewBox>
           </div>
           <div className="col-md-4">
             {" "}

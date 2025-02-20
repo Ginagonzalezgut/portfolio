@@ -2,17 +2,14 @@ import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-function ReviewBox() {
+function ReviewBox({ children, author, profession }) {
   return (
     <div className="review__box">
       <FontAwesomeIcon className="review__icon" icon={faQuoteLeft} />
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
-        distinctio, laboriosam eveniet iusto excepturi blanditiis libero facere
-        id tempore. Veniam porro aspernatur aut laboriosam necessitatibus
-        doloremque eum velit nulla! Aliquid.
-      </p>
+      <p>{children}</p>
       <div className="review__decoration"></div>
+      <p>{author}</p>
+      <p>{profession}</p>
     </div>
   );
 }
