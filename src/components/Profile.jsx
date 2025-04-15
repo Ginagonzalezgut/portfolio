@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/components/Profile.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 function Profile() {
   return (
