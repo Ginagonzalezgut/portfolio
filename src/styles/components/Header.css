@@ -2,10 +2,15 @@
   color: #707c84;
   font-weight: 600;
   position: absolute;
-  top: 40px;
+  top: 0px;
   width: 100%;
-  right: 50px;
   z-index: 1;
+}
+@media (min-width: 768px) {
+  .header-menu {
+    top: 40px;
+    right: 50px;
+  }
 }
 
 .header-menu a:hover {
@@ -13,5 +18,14 @@
 }
 
 .header-menu .menu {
-  justify-content: end;
+  justify-content: center;
+  background-color: #424242;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .header-menu .menu {
+    justify-content: end;
+    background: none;
+  }
 }
