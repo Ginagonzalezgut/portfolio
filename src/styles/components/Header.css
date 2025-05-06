@@ -1,5 +1,5 @@
 .header-menu {
-  color: #707c84;
+  color: #40484d;
   font-weight: 600;
   position: absolute;
   top: 0px;
@@ -14,7 +14,7 @@
 }
 
 .header-menu a:hover {
-  color: black;
+  color: var(--brand);
 }
 
 .header-menu .menu {
