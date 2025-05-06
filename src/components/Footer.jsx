@@ -31,13 +31,16 @@ function Footer() {
 
           <div className="col-12 col-md">
             <nav className="footer__icons">
-              <a href="https://www.linkedin.com/in/ginagonzalezgut/">
+              <a
+                href="https://www.linkedin.com/in/ginagonzalezgut/"
+                aria-label="LinkedIn"
+              >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a href="https://github.com/Ginagonzalezgut">
+              <a href="https://github.com/Ginagonzalezgut" aria-label="GitHub">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
-              <a href="mailto:ginagonzalezgut@gmail.com">
+              <a href="mailto:ginagonzalezgut@gmail.com" aria-label="Email">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
             </nav>
