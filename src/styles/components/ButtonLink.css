@@ -10,7 +10,7 @@
   line-height: 1rem;
 }
 .button-link:hover {
-  background-color: var(--brand);
+  background-color: var(--hover);
 }
 .button-link svg {
   margin-left: 10px;
