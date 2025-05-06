@@ -1,11 +1,9 @@
 import React from "react";
 import "../styles/components/Portfolio.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import Title from "./Title";
 import ConnectLinks from "./ConnectLinks";
-import Header from "./Header";
 
 function Portfolio() {
   return (
