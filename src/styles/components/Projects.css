@@ -16,7 +16,7 @@
 @media (min-width: 1200px) {
   .projects__boxes {
     flex-direction: row;
-    gap: 150px;
+    gap: 60px;
   }
 }
 
@@ -27,6 +27,7 @@
   object-position: top;
   width: 100%;
   height: auto;
+  aspect-ratio: 2 / 1;
   transition: transform 1s ease;
   transform-origin: center;
 }
@@ -42,6 +43,6 @@
 }
 @media (min-width: 1200px) {
   .project__image {
-    width: 400px;
+    width: 100%;
   }
 }

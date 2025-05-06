@@ -12,12 +12,19 @@
 @media (min-width: 768px) {
   .portfolio {
     text-align: initial;
-    padding: 150px 100px 50px;
+    padding: 150px 50px 50px;
     justify-content: start;
     height: 100vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio {
+    padding: 150px 100px 50px;
     min-height: 670px;
   }
 }
+
 .portfolio__intro {
   display: flex;
   flex-direction: row;

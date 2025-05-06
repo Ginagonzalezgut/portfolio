@@ -10,6 +10,7 @@ import {
   faNodeJs,
   faReact,
   faSass,
+  faWordpress,
 } from "@fortawesome/free-brands-svg-icons";
 
 import "../styles/components/Technologies.css";
@@ -33,6 +34,7 @@ function Technologies() {
             <FontAwesomeIcon icon={faSass} className="fa-fw" />
             <FontAwesomeIcon icon={faGithub} className="fa-fw" />
             <FontAwesomeIcon icon={faGit} className="fa-fw" />
+            <FontAwesomeIcon icon={faWordpress} className="fa-fw" />
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import spotsBarcelona from "../../public/spotsBarcelona.webp";
+import fitEnCasa from "../../public/fit-en-casa.jpg";
 import "../styles/components/Projects.css";
 import taskMaster from "../../public/taskMaster.png";
 import Heading from "./Heading";
@@ -17,15 +18,11 @@ function Projects() {
 
         <div className="projects__boxes">
           <div className="project">
-            <a
-              href="https://ginagonzalezgut.github.io/To-do-list/"
-              target="blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://fitencasa.site/" target="blank">
               <Image
                 className="project__image"
-                src={taskMaster}
-                alt="A screenshot of a web app to manage lists of tasks"
+                src={fitEnCasa}
+                alt="A screenshot of a web app to exercise at home"
                 unoptimized
               />
             </a>
@@ -40,6 +37,20 @@ function Projects() {
                 className="project__image"
                 src={spotsBarcelona}
                 alt="A screenshot of a web app to find nice spots in Barcelona"
+                unoptimized
+              />
+            </a>
+          </div>
+          <div className="project">
+            <a
+              href="https://ginagonzalezgut.github.io/To-do-list/"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                className="project__image"
+                src={taskMaster}
+                alt="A screenshot of a web app to manage lists of tasks"
                 unoptimized
               />
             </a>
