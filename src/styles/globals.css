@@ -33,7 +33,6 @@ p {
   color: var(--secondtextcolor);
   font-size: 18px;
   line-height: 1.6;
-  letter-spacing: 0.5;
 }
 
 @media (prefers-color-scheme: dark) {

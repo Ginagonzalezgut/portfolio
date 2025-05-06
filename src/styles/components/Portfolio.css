@@ -61,7 +61,7 @@
 }
 @media (min-width: 768px) {
   .portfolio__link {
-    color: var(--brand);
+    color: var(--secondtextcolor);
     font-weight: 600;
     display: inline-block;
     margin-top: 10px;
@@ -71,6 +71,7 @@
   }
 }
 .portfolio__link:hover {
+  color: var(--brand);
   border-color: var(--brand);
 }
 
