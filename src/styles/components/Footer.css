@@ -34,8 +34,8 @@
   color: #fff;
 }
 .footer__logo {
-  width: 200px;
-  height: 130px;
+  width: 83px;
+  height: 65px;
 }
 
 .footer .menu {
@@ -45,5 +45,10 @@
 @media (min-width: 768px) {
   .footer .menu {
     flex-direction: row;
+  }
+
+  .footer__logo {
+    width: 166px;
+    height: 130px;
   }
 }
