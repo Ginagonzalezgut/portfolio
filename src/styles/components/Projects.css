@@ -5,16 +5,18 @@
 }
 
 .projects__boxes {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   margin-bottom: 50px;
   gap: 30px;
 }
 
 @media (min-width: 1200px) {
   .projects__boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     flex-direction: row;
     gap: 60px;
   }
@@ -30,6 +32,7 @@
   aspect-ratio: 2 / 1;
   transition: transform 1s ease;
   transform-origin: center;
+  margin-bottom: 24px;
 }
 
 @media (min-width: 768px) {
@@ -45,4 +48,22 @@
   .project__image {
     width: 100%;
   }
+}
+.project__text {
+  text-align: center;
+
+  @media (min-width: 1200px) {
+    text-align: left;
+  }
+}
+.project__title {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #333;
+}
+.project__desc {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
 }
