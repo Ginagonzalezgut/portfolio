@@ -3,7 +3,7 @@ import Profile from "../components/Profile";
 import Technologies from "../components/Technologies";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
-import Ux from "../components/Ux";
+import AboutMe from "../components/AboutMe";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
 
       <Technologies />
       <Projects />
-      {/* <Ux /> */}
+      <AboutMe />
       <Contact />
     </>
   );

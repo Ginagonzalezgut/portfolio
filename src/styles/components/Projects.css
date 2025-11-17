@@ -30,7 +30,7 @@
   width: 100%;
   height: auto;
   aspect-ratio: 2 / 1;
-  transition: transform 1s ease;
+  transition: transform 0.5s ease;
   transform-origin: center;
   margin-bottom: 24px;
 }
@@ -41,7 +41,6 @@
   }
   .project__image:hover {
     transform: scale(1.03);
-    filter: brightness(1.05);
   }
 }
 @media (min-width: 1200px) {
@@ -60,10 +59,26 @@
   font-size: 1.3rem;
   margin-bottom: 12px;
   color: #333;
+  transition: color 0.3s ease;
 }
+
+.project__title:hover {
+  color: var(--brand);
+}
+
 .project__desc {
   font-size: 1rem;
   color: #666;
   line-height: 1.5;
-  margin: 0;
+  margin: 0 0 16px 0;
+}
+
+.project__link {
+  color: var(--brand);
+  text-decoration: underline;
+}
+
+.project__tech {
+  font-size: 14px;
+  margin-bottom: 0.5rem;
 }

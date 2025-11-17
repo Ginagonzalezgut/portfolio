@@ -1,0 +1,16 @@
+.about {
+  padding: 60px 0;
+}
+
+.about .img-fluid {
+  max-width: 300px;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+  .about .img-fluid {
+    max-width: 160px;
+    margin-bottom: 1.5rem;
+  }
+}
