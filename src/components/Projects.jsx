@@ -120,12 +120,6 @@ function Projects() {
             </div>
           ))}
         </div>
-        <ButtonLink
-          href="https://github.com/Ginagonzalezgut?tab=repositories"
-          target="_blank"
-        >
-          Discover My Projects
-        </ButtonLink>
       </div>
     </div>
   );
