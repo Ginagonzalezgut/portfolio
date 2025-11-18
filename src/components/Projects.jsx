@@ -6,7 +6,6 @@ import "../styles/components/Projects.css";
 import taskMaster from "../../public/taskMaster.png";
 import DrTaylorSmith from "../../public/DrTaylorSmith.png";
 import Heading from "./Heading";
-import ButtonLink from "./ButtonLink";
 import weddingInvitation from "../../public/weddingInvitation.png";
 
 const projects = [
@@ -16,7 +15,6 @@ const projects = [
     alt: "A screenshot of a web app to exercise at home",
     title: "Fit en casa",
     desc: "Web platform offering personalized home workout routines.",
-    rel: undefined,
     technologies: ["WordPress", "Elementor", "CSS", "RankMath SEO"],
   },
   {
@@ -25,7 +23,6 @@ const projects = [
     alt: "A screenshot of a web app to find nice spots in Barcelona",
     title: "Barcelona Restaurant Guide",
     desc: "Interactive directory with restaurant reviews.",
-    rel: "noopener noreferrer",
     technologies: [
       "React",
       "SASS",
@@ -41,7 +38,6 @@ const projects = [
     alt: "A screenshot of a web app to manage lists of tasks",
     title: "To-Do List App",
     desc: "Task management app with features like adding, editing, and deleting tasks.",
-    rel: "noopener noreferrer",
     technologies: ["React", "SASS", "React Router"],
   },
   {
@@ -50,7 +46,6 @@ const projects = [
     alt: "A screenshot of Dr. Sebastian Taylor-Smith's website",
     title: "Medical Clinic — Professional Website",
     desc: "Professional website for Dr. Sebastian Taylor-Smith's medical clinic.",
-    rel: "noopener noreferrer",
     technologies: ["WordPress", "Elementor", "Figma"],
     figma:
       "https://www.figma.com/design/TKBRt4IkWat5bdbuDzXbcv/Medicine?node-id=0-1&t=BX7iBgHhFlF1plgp-1",
@@ -62,7 +57,6 @@ const projects = [
     title: "Wedding Website",
     desc: "Elegant wedding website featuring a photo gallery and RSVP functionality.",
     technologies: ["Angular", "SASS", "Figma"],
-    rel: undefined,
   },
 ];
 
@@ -78,18 +72,24 @@ function Projects() {
         <div className="projects__boxes">
           {projects.map((project, idx) => (
             <div className="project" key={idx}>
-              <a
-                href={project.href}
-                target="blank"
-                {...(project.rel ? { rel: project.rel } : {})}
-              >
+              <div className="project__image__wrapper">
+                <div className="project__image__overlay">
+                  <a
+                    className="project__button"
+                    href={project.href}
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    See Website
+                  </a>
+                </div>
                 <Image
                   className="project__image"
                   src={project.img}
                   alt={project.alt}
                   unoptimized
                 />
-              </a>
+              </div>
               <div className="project__text">
                 <h3 className="project__title">
                   <a
