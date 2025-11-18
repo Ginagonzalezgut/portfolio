@@ -7,6 +7,7 @@ import taskMaster from "../../public/taskMaster.png";
 import DrTaylorSmith from "../../public/DrTaylorSmith.png";
 import Heading from "./Heading";
 import weddingInvitation from "../../public/weddingInvitation.png";
+import Profile from "./Profile";
 
 const projects = [
   {
@@ -80,8 +81,19 @@ function Projects() {
                     target="blank"
                     rel="noopener noreferrer"
                   >
-                    See Website
+                    Open Website
                   </a>
+
+                  {project.figma && (
+                    <a
+                      className="project__button project__button--secondary"
+                      href={project.figma}
+                      target="blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Design
+                    </a>
+                  )}
                 </div>
                 <Image
                   className="project__image"
@@ -98,16 +110,6 @@ function Projects() {
                   </p>
                 )}
                 <p className="project__desc">{project.desc}</p>
-                {project.figma && (
-                  <a
-                    className="project__link"
-                    href={project.figma}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Design
-                  </a>
-                )}
               </div>
             </div>
           ))}
