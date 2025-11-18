@@ -91,15 +91,7 @@ function Projects() {
                 />
               </div>
               <div className="project__text">
-                <h3 className="project__title">
-                  <a
-                    href={project.href}
-                    target="blank"
-                    {...(project.rel ? { rel: project.rel } : {})}
-                  >
-                    {project.title}
-                  </a>
-                </h3>
+                <h3 className="project__title">{project.title}</h3>
                 {project.technologies && (
                   <p className="project__tech">
                     {project.technologies.join(" · ")}
